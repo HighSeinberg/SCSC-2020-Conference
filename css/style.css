@@ -76,6 +76,29 @@ name
 {
     border-left: 2px solid black;
 }
+.center
+{
+    color: white;
+    position: absolute;
+    top: 25%;
+    display: none;
+    left: 50%;
+    transition: 0.7s;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+.img_card:hover > .center
+{ 
+    display: block;
+    transition: 0.7s;
+}
+.img_card > img:hover
+{
+    opacity: 0.8;
+    transition: 0.7s;
+}
+
+
 @media only screen and (max-width:600px)
 {
     .style_register_info
