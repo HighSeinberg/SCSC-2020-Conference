@@ -29,6 +29,7 @@
   <link href="https://fonts.googleapis.com/css?family=Anton|Russo+One&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
   <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Damion|Playball|Yellowtail&display=swap" rel="stylesheet">
   <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
 
@@ -36,9 +37,23 @@
   <link href="css/agency.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 
+  <!--News Ticker-->
+  <link rel="stylesheet" href="libs/style.css">
+
 </head>
 
 <body id="page-top">
+
+  <!--News Ticker-->
+  <div class="TickerNews" id="T1">
+    <div class="ti_wrapper">
+        <div class="ti_slide">
+            <div class="ti_content">
+                <div class="ti_news"><a href="#programmes"> |  Deadline for Talk and Poster Submission: 15th September 2020 </a></div>
+            </div>
+        </div>
+    </div>
+  </div>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -79,9 +94,13 @@
   <header class="masthead">
     <div class="container">
       <div class="intro-text">
+        <div class="header_1">3rd Annual Meeting of the</div>
+        <div class="separator line-separator" style="color: white;">♦</div><br>
         <div class="intro-lead-in">Society for the</div>
         <div class="intro-heading text-uppercase">Cognitive Science of Culture</div>
-        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Tell Me More</a>
+        <div class="separator line-separator" style="color: white;">♦</div>
+        <div class="theme">Literacy in a Multilingual World</div>
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#about">Learn More</a>
       </div>
     </div>
   </header>
@@ -97,7 +116,9 @@
             exchanging ideas, and a network to foster collaborations among interested researchers. 
             We want to understand the human mind 
             and how cultural objects (e.g., literacy; religion), including those within culture at 
-            macro-level, can shape the human brain and mind.<p>
+            macro-level, can shape the human brain and mind.<br><br>
+            Read more about us <a href="https://culturalbrain.org/scsc/">here</a>
+            and of the organizing institution, BITS-Pilani, Goa Campus <a href="https://www.bits-pilani.ac.in/Goa/">here</a>.</p>
         </div>
       </div>
       <div class="row text-center">
@@ -117,7 +138,7 @@
             <img src="img/Icons/undraw_address_udes.svg" class="style_icon" alt="">
           </span>
           <h4 class="service-heading">Venue</h4>
-          <p class="text-muted">Workshop venue: BITS Pilani University Goa (India). Reception at Claudis Restaurant Bogmalo Beach.</p>
+          <p class="text-muted">Workshop venue: BITS Pilani University Goa (India). Reception at Claudis Restaurant Bogmalo Beach. <a href="https://www.google.com/maps/place/BITS+Pilani+K+K+Birla+Goa+Campus/@15.401555,73.866234,13z/data=!4m5!3m4!1s0x3bbfb8375851666d:0x4ad5683010110240!8m2!3d15.3911235!4d73.8781617?hl=en" target="_blank">Open in maps</a></p>
         </div>
         <div class="col-md-4">
           <span class="fa-stack fa-4x">
@@ -325,6 +346,20 @@
             <p class="text-muted">Beckman Institute, University of Illinois, Urbana-Champaign</p>
           </div>
         </div>
+        <div class="col-md-4 col-sm-6 portfolio-item">
+          <a class="portfolio-link" data-toggle="modal" href="#portfolioModal14">
+            <div class="portfolio-hover">
+              <div class="portfolio-hover-content">
+                <i class="fas fa-plus fa-3x"></i>
+              </div>
+            </div>
+            <img class="img-fluid img_style" src="img/speakers/Prakash.jpg" alt="Prakash Padakannaya">
+          </a>
+          <div class="portfolio-caption">
+            <h4>Prakash Padakannaya</h4>
+            <p class="text-muted">University of Mysore, India</p>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -415,11 +450,20 @@
           </ul>
         </div>
       </div>-->
+      <br>
+      <div class="row">
+          <div class="col-lg-12 text-center">
+            <h3 class="section-heading text-uppercase">Poster Submission</h3>
+            <!--<h3 class="section-subheading text-muted">Get a chance to showcase and present your Poster at the conference</h3>-->
+          </div>
+        </div>
+        <p style="text-align: center"> Deadline for poster submission: 15th September 2019 <br>
+          For submissions and any queries, reach out at <a href="mailto: cnrl.bpgc@gmail.com">cnrl.bpgc@gmail.com</a></p> 
     </div>
   </section>
 
   <!-- Registrations -->
-  <section class="py-5" id="registration" style="background-color: goldenrod;">
+  <section class="py-5" id="registration" style="background-color: gold;">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
@@ -530,12 +574,12 @@
                   <i class="fas fa-envelope"></i>
                 </a>
               </li>
-              <li class="list-inline-item">
+              <!--<li class="list-inline-item">
                 <a target="_blank" href="https://www.facebook.com/profile.php?id=100008000237691&__tn__=lC-R&eid=ARCL3bHPMc8gBhBnbRLKMCUXH7i8tSMWoTiQqZG1UnrhOFcolRC3vw8vQeqUNoyslPlTIzgV3jqIcLr2&hc_ref=ARS4o4Eth2IQZ48MhpDYhRrxDMoVh8DLnTWyt6g5-TGdI0YuzW90Ru_EjVQvdRf6m6s&__xts__[0]=68.ARBy4b2270r8rRBRAwImHshcAhOQwGsCXiEIQ03yDi8hO1C5idfSALsQ0ZH3OWRmeZmew0PdhoyhPiyMwMbEbyw0U_jVNYnZfuDuFMIbZLsEgrak98s3ZXxL9zpsL6sn6DwnvdrY_RyFXR2kmiU-aQx2uqY_dVVzjUPjUnLkD_Oil7Ieu_vnCfgC1_5DSciub45z_UWkywgY59ygZ0_bWbw8Px7fmU7oyZI-LLwfykpwaZPHRI6wEJHfZRMlNdORdOcUYUThfeH9qIIVsZXFuIj_kUx5FLg">
                   <i class="fab fa-facebook-f"></i>
                 </a>
               </li>
-              <!--<li class="list-inline-item">
+              <li class="list-inline-item">
                 <a target="_blank" href="#">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
@@ -1133,42 +1177,79 @@
     </div>
   </div>
 
-    <!-- Modal 13 --><!--LEFT-->
-    <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
+  <!-- Modal 13 --><!--LEFT-->
+  <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
           </div>
-          <div class="container">
-            <div class="row">
-              <div class="col-lg-8 mx-auto">
-                <div class="modal-body">
-                  <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Elizabeth Stine-Morrow</h2>
-                  <p class="item-intro text-muted">Beckman Institute, University of Illinois, Urbana-Champaign</p>
-                  <img class="img-fluid d-block mx-auto" style="height: 400px; width: auto;" src="img/speakers/liz.jpg" alt="">
-                  <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit tempora quibusdam. Debitis nostrum assumenda sint temporibus harum exercitationem consectetur, quis tempore animi! Commodi itaque assumenda ratione iure ducimus, tempore rem alias laborum soluta. Distinctio eius eos vel itaque ab.</p>-->
-                  <p>
-                    <a href="https://beckman.illinois.edu/directory/person/eals" target="_blank">Read More</a>
-                  </p>
-                  <!--<ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
-                  </ul>-->
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fas fa-times"></i>
-                    Close Tab</button>
-                </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Elizabeth Stine-Morrow</h2>
+                <p class="item-intro text-muted">Beckman Institute, University of Illinois, Urbana-Champaign</p>
+                <img class="img-fluid d-block mx-auto" style="height: 400px; width: auto;" src="img/speakers/liz.jpg" alt="">
+                <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit tempora quibusdam. Debitis nostrum assumenda sint temporibus harum exercitationem consectetur, quis tempore animi! Commodi itaque assumenda ratione iure ducimus, tempore rem alias laborum soluta. Distinctio eius eos vel itaque ab.</p>-->
+                <p>
+                  <a href="https://beckman.illinois.edu/directory/person/eals" target="_blank">Read More</a>
+                </p>
+                <!--<ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Window</li>
+                  <li>Category: Photography</li>
+                </ul>-->
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Tab</button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- Modal 14 --><!--LEFT-->
+  <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <!-- Project Details Go Here -->
+                <h2 class="text-uppercase">Prakash Padakannaya</h2>
+                <p class="item-intro text-muted">University of Mysore, India</p>
+                <img class="img-fluid d-block mx-auto" style="height: 400px; width: auto;" src="img/speakers/Prakash.jpg" alt="">
+                <!--<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique impedit tempora quibusdam. Debitis nostrum assumenda sint temporibus harum exercitationem consectetur, quis tempore animi! Commodi itaque assumenda ratione iure ducimus, tempore rem alias laborum soluta. Distinctio eius eos vel itaque ab.</p>-->
+                <p>
+                  <a href="https://www.researchgate.net/profile/Prakash_Padakannaya" target="_blank">Read More</a>
+                </p>
+                <!--<ul class="list-inline">
+                  <li>Date: January 2017</li>
+                  <li>Client: Window</li>
+                  <li>Category: Photography</li>
+                </ul>-->
+                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                  <i class="fas fa-times"></i>
+                  Close Tab</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- The core Firebase JS SDK is always required and must be listed first -->
   <script src="/__/firebase/6.2.4/firebase-app.js"></script>
@@ -1181,6 +1262,7 @@
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="breaking-news-ticker.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Plugin JavaScript -->
@@ -1193,6 +1275,27 @@
   <!-- Custom scripts for this template -->
   <script src="js/agency.min.js"></script>
   <script src="js/script.js"></script>
+
+  <!--New Ticker JS-->
+  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+  <script src="libs/jquery.tickerNews.min.js"></script>
+  <script type="text/javascript">
+    $(function(){
+      var timer = !1;
+    _Ticker = $("#T1").newsTicker();
+    _Ticker.on("mouseenter",function(){
+      var __self = this;
+      timer = setTimeout(function(){
+        __self.pauseTicker();
+      },200);
+    });
+    _Ticker.on("mouseleave",function(){
+      clearTimeout(timer);
+      if(!timer) return !1;
+      this.startTicker();
+    });
+  });
+  </script>
 
 </body>
 

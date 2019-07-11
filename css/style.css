@@ -23,7 +23,7 @@
 #register_button > a
 {
     color: white;
-    background-color: gold;
+    background-color: orange;
     padding: 10px 30px;
     text-transform: uppercase;
     font-family: Montserrat,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji';
@@ -44,7 +44,7 @@
 }
 #register_button :hover
 {
-    background-color: orangered;
+    background-color: goldenrod;
 }
 #register_button
 {
@@ -97,7 +97,44 @@ name
     opacity: 0.8;
     transition: 0.7s;
 }
-
+.separator:before {
+    float: left;
+}
+.separator:after {
+    float: right;
+}
+.separator:before, .separator:after {
+    border-color: #FFFFFF;
+}
+.separator:before, .separator:after {
+    display: block;
+    width: 40%;
+    content: " ";
+    margin-top: 10px;
+    border: 1px solid white;
+}
+.separator {
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 0px;
+    max-width: 240px;
+    text-align: center;
+    position: relative;
+}
+.theme
+{
+    font-family: 'Playball', cursive;    
+    margin-bottom: 30px;
+    margin-top: 7px;
+    font-size: 2em;
+}
+.header_1
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+    margin-bottom: 12px;
+}
 
 @media only screen and (max-width:600px)
 {
@@ -110,3 +147,11 @@ name
         margin-bottom: 20px;
     }
 }
+
+
+
+
+
+
+
+
