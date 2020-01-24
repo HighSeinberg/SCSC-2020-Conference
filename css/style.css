@@ -135,6 +135,12 @@ name
     font-size: 1.4em;
     margin-bottom: 12px;
 }
+.files {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    font-size: 1.3em;
+}
 
 @media only screen and (max-width:600px)
 {
